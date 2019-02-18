@@ -1,2 +1,14 @@
 //Bryan Leonardo Hernandez Sanchez 1622746 Percepcion N6
 //CIRCULO QUE REBOTA 
+var x, y;
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+	background(200); 
+	x = int(random(0, 375));
+	y = int(random(0, 375));
+	ellipse(x, y,50, 50);
+	
+}
